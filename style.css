@@ -1,0 +1,121 @@
+
+      html, body {
+         margin: -2px;
+         padding: 1px;
+         background-color: #6873E8;
+         color: black;
+         border: red;
+      }
+      .form-container {
+         margin: 20px;
+         padding: 15px;
+         background: #173459;
+         color: white;
+         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+      }
+      .input-cnt {
+         display: flex; /* display the icon and the input in a line */
+         margin-bottom: 15px;
+      }
+      .input-cnt:last-child {
+         margin-bottom: 0px;
+      }
+      .input-cnt > i {
+         min-width: 40px; /* set a minimum width for the icon */
+         padding: 10px; /* make sure the icon is centered vertically */
+         text-align: center; /* horizontally center the icon */
+         background: #6688F0;
+         border-top-left-radius: 20px;
+         border-bottom-left-radius: 20px;
+         color: #0076ff;
+      }
+      
+      /* style the submit button */
+      .input-cnt > input[type="submit"] {
+         border: solid-red;
+         border-radius: 20px;
+         outline: none;
+         width: 90%;
+         margin: 0 auto;
+         font-size: 105%;
+         padding: 8px;
+         color: #000000;
+         background: #235AFF;
+         transition-duration: .10s;
+         }
+         
+         
+  .input-new {
+         margin: 20px;
+         padding: 15px;
+         background: #173459;
+         color: white;
+         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+      }
+      .input-new {
+         display: flex; /* display the icon and the input in a line */
+         margin-bottom: 15px;
+      }
+      .input-new:last-child {
+         margin-bottom: 0px;
+      }
+      
+      /* style the submit button */
+      .input-c > input[type="submit"] {
+         border: solid-red;
+         border-radius: 20px;
+         outline: none;
+         width: 90%;
+         margin: 0 auto;
+         font-size: 105%;
+         padding: 8px;
+         color: #000000;
+         background: #235AFF;
+         transition-duration: .10s;
+         }
+
+
+
+
+  * {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar a {
+         text-decoration: none;
+         color: black;
+         display: block;
+      }
+      .nav-bar > ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+         padding: 10px;
+         background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar .active {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar li {
+         float: left;
+         width: 25%; /* 100% / 4 (number of li elements) = 25% */
+         text-align: center;
+         border-right: 1px solid #333; /* for the borders */
+      }
+      .nav-bar li:last-child {
+         border: none;
+      }
+      .input-ff{
+        color: black;
+        
+      }
